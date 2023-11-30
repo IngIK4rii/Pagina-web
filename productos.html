@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	
+	<body>
+		<header>
+			<h1>Tienda</h1>
+
+			<div class="container-icon">
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg>
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="cart-product">
+						<div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito"></p>
+                            <span class="precio-producto-carrito"></span>
+                        </div>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke-width="1.5"
+							stroke="currentColor"
+							class="icon-close"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M6 18L18 6M6 6l12 12"
+							/>
+						</svg>
+					</div>
+                    <div class="cart-total">
+                        <h3>Total:</h3>
+                        <span class="total-pagar">$200</span>
+                    </div>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="Audifonos STF.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Audifonos STF</h2>
+					<p class="price">$300</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Audifonos sony.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Audifonos sony</h2>
+					<p class="price">$800</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Audifonos jbl.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Audifonos JBL</h2>
+					<p class="price">$950</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="bocfisqbjn.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Bocina Ground Ecosytem</h2>
+					<p class="price">$750</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="alexa.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Bocina Alexa</h2>
+					<p class="price">$1500</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="bocina jbl.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Bocina JBL</h2>
+					<p class="price">$980</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Camara Fujilfilm X-T4 Negra.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Camara Fujilfilm X-T4 Negra</h2>
+					<p class="price">$49,999</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Canon EOS Rebel T8i EF-S.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Canon EOS Rebel T8i EF-S</h2>
+					<p class="price">$15,599</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Camara NIKON D7500.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Camara NIKON D7500</h2>
+					<p class="price">$25,829</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="laptop HP 15-DW10033DX.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>laptop HP 15-DW10033DX</h2>
+					<p class="price">$5,999</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Laptop Gamer.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Laptop Gamer</h2>
+					<p class="price">$12,899</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Laptop Lanix.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Laptop Lanix</h2>
+					<p class="price">$6,969</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="NST.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Nintendo switch</h2>
+					<p class="price">$9,969</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="play5.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Playstation</h2>
+					<p class="price">$16,969</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="XBOX.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Xbox S</h2>
+					<p class="price">$10,969</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="iphone.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>iphone 15</h2>
+					<p class="price">$36,254</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="motooo.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Motorola edge 40</h2>
+					<p class="price">$8000</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="Galaxy S23.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Samsung GalaxyS23</h2>
+					<p class="price">$11.959</p>
+					<button>Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+		
+        <footer>
+            DeaDogs &copy;2023
+        </footer>
+
+        <script src="index.js"></script>
+	</body>
+</htm>

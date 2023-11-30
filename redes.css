@@ -1,0 +1,42 @@
+#logros-redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logro {
+    text-align: center;
+}
+
+.logro img {
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: 200px;
+}
+
+.visitar-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #080808;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.visitar-btn:hover {
+    background-color: #252525;
+}
+
+footer{
+    
+    color: #000000;
+    text-align: center;
+    
+    height: 50px;
+    line-height: 50px;
+    
+
+}

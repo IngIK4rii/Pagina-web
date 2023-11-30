@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tu Página Principal</title>
+    <link rel="stylesheet" href="portada-styles.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-image: url(leyre-71SHXwBLp5w-unsplash.jpg);
+             
+        }
+
+        header {
+            background-color: rgba(150, 39, 241, 0.3); 
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #ffffff;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: #4612d6;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #4612d6;
+        }
+
+        .container-icon {
+            position: relative;
+        }
+
+        .icon-cart {
+            width: 24px;
+            height: 24px;
+            fill: none;
+            stroke-width: 1.5;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .count-products {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            padding: 5px;
+        }
+
+        .container-cart-products {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            border: 1px solid #383535;
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(43, 38, 38, 0.801);
+            display: none;
+        }
+
+        .cart-product {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .icon-close {
+            width: 24px;
+            height: 24px;
+            fill: none;
+            stroke-width: 1.5;
+            stroke: currentColor;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            cursor: pointer;
+        }
+
+        .cart-total {
+            text-align: right;
+        }
+
+        .container-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .item {
+            width: 200px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .price {
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        #logros-redes-sociales {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 20px 0;
+        }
+
+        .logro {
+            text-align: center;
+        }
+
+        .logro img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .visitar-btn {
+            display: inline-block;
+            padding: 5px 10px;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .visitar-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="portada">
+        <h1>Bienvenido a Nuestra Tienda "DeaDogs"</h1>
+        <p>Explora nuestra amplia selección de productos de alta calidad.</p>
+    </section>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Productos de buena calidad y precio en nuestra tienda de electrónica de alta confianza!</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="brand-section">
+        <h1>DeaDogs</h1>
+        <p>Bienvenido a nuestra Tienda DeaDogs</p>
+    </section>
+
+    <section class="cta-section"id="producto-cta">
+        <h2>Descubre Nuestros Productos</h2>
+        <p>¡Los mejores productos para ti!</p>
+        <li><a href="productos.html" class="cta-button">Productos</a></li>
+    </section>
+
+    <section class="cta-section" id="producto-cta">
+        <h2>¿Quieres informate de nuestros productos?</h2>
+        <p>Únete a nosotros hoy mismo en nuestras redes!</p>
+        <li><a href="redes.html"class="cta-button">Contacto</a></li>
+    </section>
+
+    
+        
+        
+</body>
+
+</html>
